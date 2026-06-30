@@ -1,71 +1,77 @@
-# 🧾 Uniform Billing System
+# 🐍 Python Fundamentals
 
-## 📌 Description
+Welcome to my Python Fundamentals repository.
+
+This repository contains my Python learning journey as I prepare for a career in **Data Science** and **AI/ML Engineering** through practical, business-oriented projects.
+
+---
+
+# 📂 Projects
+
+## 🧾 1. Uniform Billing System
+
+### 📌 Description
 
 A simple Python console application that generates a customer bill by calculating the total amount based on the quantity and price of a product.
 
----
-
-## 🎯 Features
-
-- Accept customer details
-- Accept product details
-- Calculate the total amount
-- Display a formatted bill summary
-
----
-
-## 🛠 Technologies Used
-
-- Python
-
----
-
-## 📚 Concepts Practiced
+### 🎯 Concepts Covered
 
 - Variables
 - Input and Output
 - Type Conversion
-- Arithmetic Operators
-- String Methods
+- Arithmetic Operations
 - Output Formatting
 
 ---
 
-## 📂 Project Structure
+## 👨‍💼 2. Employee Information System
+
+### 📌 Description
+
+A Python console application that stores employee information and displays a professional employee profile.
+
+### 🎯 Concepts Covered
+
+- String Methods (`title()`, `upper()`, `lower()`, `center()`)
+- Data Types (`str`, `int`, `float`)
+- Type Conversion
+- Data Cleaning
+- Output Formatting
+
+---
+
+# 🛠 Technologies Used
+
+- Python 3
+
+---
+
+# 📂 Repository Structure
 
 ```text
 01-python-fundamentals/
 │── main.py
+│── employee_information_system.py
 │── README.md
 │── .gitignore
 ```
 
 ---
 
-## 🚀 Sample Output
+# 🎯 Learning Goal
 
-```text
-==============================
-      BILL SUMMARY
-==============================
-Customer : Jishnu Gireesh
-Product  : Shirt
-Quantity : 5
-Price    : ₹750.00
-------------------------------
-Total    : ₹3750.00
+Build a strong foundation in:
 
-Thank you for shopping with us!
-==============================
-```
+- Python Programming
+- Data Analysis
+- Data Science
+- Machine Learning
+- Artificial Intelligence
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Jishnu Gireesh**
 
-Learning Python, Data Science, and AI/ML through practical business projects.
-
----
+BCA Graduate | Aspiring Data Scientist | AI/ML Engineer
