@@ -1,77 +1,144 @@
 # 🐍 Python Fundamentals
 
-Welcome to my Python Fundamentals repository.
+## 📌 Description
 
-This repository contains my Python learning journey as I prepare for a career in **Data Science** and **AI/ML Engineering** through practical, business-oriented projects.
+This repository contains beginner-friendly Python projects developed while learning Python fundamentals for Data Science, AI, and Machine Learning.
+
+Each project focuses on solving a real-world business problem while practicing core Python concepts.
 
 ---
 
-# 📂 Projects
+## 📚 Projects
 
-## 🧾 1. Uniform Billing System
+### 1️⃣ Uniform Billing System
 
-### 📌 Description
+#### Description
+A simple billing application that calculates the total amount based on product quantity and price.
 
-A simple Python console application that generates a customer bill by calculating the total amount based on the quantity and price of a product.
+#### Features
+- Accept customer details
+- Accept product details
+- Calculate total bill
+- Display formatted bill summary
 
-### 🎯 Concepts Covered
-
+#### Concepts Practiced
 - Variables
-- Input and Output
+- Input & Output
 - Type Conversion
-- Arithmetic Operations
+- Arithmetic Operators
 - Output Formatting
 
 ---
 
-## 👨‍💼 2. Employee Information System
+### 2️⃣ Employee Information System
 
-### 📌 Description
+#### Description
+A console application that stores and displays employee information in a professional format.
 
-A Python console application that stores employee information and displays a professional employee profile.
+#### Features
+- Employee registration
+- Department formatting
+- Email formatting
+- Salary display
+- Experience details
 
-### 🎯 Concepts Covered
+#### Concepts Practiced
+- String Methods (`.title()`, `.upper()`, `.lower()`)
+- Data Types
+- Variables
+- Formatting Output
 
-- String Methods (`title()`, `upper()`, `lower()`, `center()`)
-- Data Types (`str`, `int`, `float`)
-- Type Conversion
-- Data Cleaning
+---
+
+### 3️⃣ Employee Bonus Eligibility System
+
+#### Description
+A payroll-based application that determines employee bonus eligibility based on experience and performance rating.
+
+#### Business Rules
+
+- Experience ≥ 5 years and Performance Rating = 5 → **20% Bonus**
+- Experience ≥ 3 years and Performance Rating ≥ 4 → **10% Bonus**
+- Otherwise → **No Bonus**
+
+#### Features
+
+- Employee registration
+- Bonus eligibility check
+- Automatic bonus calculation
+- Final salary calculation
+- Professional bonus summary
+
+#### Concepts Practiced
+
+- `if`
+- `elif`
+- `else`
+- Comparison Operators
+- Logical Operators (`and`)
+- Variables
+- Business Logic
+- Arithmetic Calculations
+- f-Strings
 - Output Formatting
 
 ---
 
-# 🛠 Technologies Used
+## 🛠 Technologies Used
 
 - Python 3
 
 ---
 
-# 📂 Repository Structure
+## 📂 Repository Structure
 
 ```text
 01-python-fundamentals/
 │── main.py
 │── employee_information_system.py
+│── employee_bonus_system.py
 │── README.md
 │── .gitignore
 ```
 
 ---
 
-# 🎯 Learning Goal
+## 🎯 Skills Learned
 
-Build a strong foundation in:
-
-- Python Programming
-- Data Analysis
-- Data Science
-- Machine Learning
-- Artificial Intelligence
+- Python Fundamentals
+- Variables
+- Data Types
+- Input & Output
+- String Methods
+- Arithmetic Operators
+- Comparison Operators
+- Logical Operators
+- Conditional Statements
+- Business Logic
+- Output Formatting
+- Basic Problem Solving
 
 ---
 
-# 👨‍💻 Author
+## 🚀 Future Projects
+
+- Student Grade Management System
+- ATM Banking System
+- Inventory Management System
+- Library Management System
+- Sales Report Generator
+- Expense Tracker
+- File Handling
+- Object-Oriented Programming (OOP)
+
+---
+
+## 👨‍💻 Author
 
 **Jishnu Gireesh**
 
-BCA Graduate | Aspiring Data Scientist | AI/ML Engineer
+Aspiring **Data Scientist | AI/ML Engineer | Python Developer**
+
+Learning Python, Data Science, Machine Learning, and Artificial Intelligence through real-world projects.
+
+---
