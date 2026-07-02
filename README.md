@@ -4,7 +4,7 @@
 
 This repository contains beginner-friendly Python projects developed while learning Python fundamentals for Data Science, AI, and Machine Learning.
 
-Each project focuses on solving a real-world business problem while practicing core Python concepts.
+Each project focuses on solving real-world business problems while practicing core Python concepts and improving problem-solving skills.
 
 ---
 
@@ -16,12 +16,14 @@ Each project focuses on solving a real-world business problem while practicing c
 A simple billing application that calculates the total amount based on product quantity and price.
 
 #### Features
+
 - Accept customer details
 - Accept product details
 - Calculate total bill
 - Display formatted bill summary
 
 #### Concepts Practiced
+
 - Variables
 - Input & Output
 - Type Conversion
@@ -33,9 +35,11 @@ A simple billing application that calculates the total amount based on product q
 ### 2️⃣ Employee Information System
 
 #### Description
+
 A console application that stores and displays employee information in a professional format.
 
 #### Features
+
 - Employee registration
 - Department formatting
 - Email formatting
@@ -43,6 +47,7 @@ A console application that stores and displays employee information in a profess
 - Experience details
 
 #### Concepts Practiced
+
 - String Methods (`.title()`, `.upper()`, `.lower()`)
 - Data Types
 - Variables
@@ -53,6 +58,7 @@ A console application that stores and displays employee information in a profess
 ### 3️⃣ Employee Bonus Eligibility System
 
 #### Description
+
 A payroll-based application that determines employee bonus eligibility based on experience and performance rating.
 
 #### Business Rules
@@ -75,10 +81,50 @@ A payroll-based application that determines employee bonus eligibility based on 
 - `elif`
 - `else`
 - Comparison Operators
-- Logical Operators (`and`)
+- Logical Operator (`and`)
 - Variables
 - Business Logic
 - Arithmetic Calculations
+- f-Strings
+- Output Formatting
+
+---
+
+### 4️⃣ Employee Promotion Eligibility System
+
+#### Description
+
+A business application that evaluates an employee's promotion eligibility based on experience, performance rating, and attendance.
+
+#### Business Rules
+
+- Experience ≥ 5 years **AND** Performance Rating ≥ 4 → **Senior Employee**
+- Experience ≥ 3 years **OR** Performance Rating = 5 → **Promotion Review**
+- Otherwise → **Not Eligible**
+
+#### Attendance Rule
+
+- If attendance is **False** → **Attendance Warning!**
+- Otherwise → **Attendance is Good**
+
+#### Features
+
+- Employee registration
+- Promotion eligibility check
+- Attendance verification
+- Professional promotion summary
+- Business rule implementation
+
+#### Concepts Practiced
+
+- `if`
+- `elif`
+- `else`
+- Logical Operators (`and`, `or`, `not`)
+- Boolean Data Type
+- Comparison Operators
+- Variables
+- Business Logic
 - f-Strings
 - Output Formatting
 
@@ -97,6 +143,7 @@ A payroll-based application that determines employee bonus eligibility based on 
 │── main.py
 │── employee_information_system.py
 │── employee_bonus_system.py
+│── employee_promotion_eligibility_system.py
 │── README.md
 │── .gitignore
 ```
@@ -109,11 +156,13 @@ A payroll-based application that determines employee bonus eligibility based on 
 - Variables
 - Data Types
 - Input & Output
+- Type Conversion
 - String Methods
 - Arithmetic Operators
 - Comparison Operators
-- Logical Operators
-- Conditional Statements
+- Logical Operators (`and`, `or`, `not`)
+- Conditional Statements (`if`, `elif`, `else`)
+- Boolean Data Type
 - Business Logic
 - Output Formatting
 - Basic Problem Solving
@@ -137,8 +186,8 @@ A payroll-based application that determines employee bonus eligibility based on 
 
 **Jishnu Gireesh**
 
-Aspiring **Data Scientist | AI/ML Engineer | Python Developer**
+Aspiring **AI/ML Engineer | Data Scientist | Python Developer**
 
-Learning Python, Data Science, Machine Learning, and Artificial Intelligence through real-world projects.
+Learning Python, Data Science, Machine Learning, and Artificial Intelligence through practical real-world projects.
 
 ---
