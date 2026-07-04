@@ -18,18 +18,18 @@ A simple billing application that calculates the total amount based on product q
 
 #### Features
 
-* Accept customer details
-* Accept product details
-* Calculate the total bill
-* Display a formatted bill summary
+- Accept customer details
+- Accept product details
+- Calculate the total bill
+- Display a formatted bill summary
 
 #### Concepts Practiced
 
-* Variables
-* Input & Output
-* Type Conversion
-* Arithmetic Operators
-* Output Formatting
+- Variables
+- Input & Output
+- Type Conversion
+- Arithmetic Operators
+- Output Formatting
 
 ---
 
@@ -41,19 +41,19 @@ A console application that stores and displays employee information in a profess
 
 #### Features
 
-* Employee registration
-* Department formatting
-* Email formatting
-* Salary display
-* Experience details
+- Employee registration
+- Department formatting
+- Email formatting
+- Salary display
+- Experience details
 
 #### Concepts Practiced
 
-* Variables
-* Data Types
-* String Methods (`.title()`, `.upper()`, `.lower()`)
-* Input & Output
-* Output Formatting
+- Variables
+- Data Types
+- String Methods (`.title()`, `.upper()`, `.lower()`)
+- Input & Output
+- Output Formatting
 
 ---
 
@@ -65,30 +65,30 @@ A payroll-based application that determines employee bonus eligibility based on 
 
 #### Business Rules
 
-* Experience ≥ 5 years and Performance Rating = 5 → **20% Bonus**
-* Experience ≥ 3 years and Performance Rating ≥ 4 → **10% Bonus**
-* Otherwise → **No Bonus**
+- Experience ≥ 5 years and Performance Rating = 5 → **20% Bonus**
+- Experience ≥ 3 years and Performance Rating ≥ 4 → **10% Bonus**
+- Otherwise → **No Bonus**
 
 #### Features
 
-* Employee registration
-* Bonus eligibility check
-* Automatic bonus calculation
-* Final salary calculation
-* Professional bonus summary
+- Employee registration
+- Bonus eligibility check
+- Automatic bonus calculation
+- Final salary calculation
+- Professional bonus summary
 
 #### Concepts Practiced
 
-* `if`
-* `elif`
-* `else`
-* Comparison Operators
-* Logical Operators (`and`)
-* Variables
-* Business Logic
-* Arithmetic Calculations
-* f-Strings
-* Output Formatting
+- `if`
+- `elif`
+- `else`
+- Comparison Operators
+- Logical Operators (`and`)
+- Variables
+- Business Logic
+- Arithmetic Calculations
+- f-Strings
+- Output Formatting
 
 ---
 
@@ -100,35 +100,35 @@ A business application that evaluates an employee's promotion eligibility based 
 
 #### Business Rules
 
-* Experience ≥ 5 years **AND** Performance Rating ≥ 4 → **Senior Employee**
-* Experience ≥ 3 years **OR** Performance Rating = 5 → **Promotion Review**
-* Otherwise → **Not Eligible**
+- Experience ≥ 5 years **AND** Performance Rating ≥ 4 → **Senior Employee**
+- Experience ≥ 3 years **OR** Performance Rating = 5 → **Promotion Review**
+- Otherwise → **Not Eligible**
 
 #### Attendance Rule
 
-* If attendance is **False** → **Attendance Warning!**
-* Otherwise → **Attendance is Good**
+- If attendance is **False** → **Attendance Warning!**
+- Otherwise → **Attendance is Good**
 
 #### Features
 
-* Employee registration
-* Promotion eligibility check
-* Attendance verification
-* Professional promotion summary
-* Business rule implementation
+- Employee registration
+- Promotion eligibility check
+- Attendance verification
+- Professional promotion summary
+- Business rule implementation
 
 #### Concepts Practiced
 
-* `if`
-* `elif`
-* `else`
-* Logical Operators (`and`, `or`, `not`)
-* Boolean Data Type
-* Comparison Operators
-* Variables
-* Business Logic
-* f-Strings
-* Output Formatting
+- `if`
+- `elif`
+- `else`
+- Logical Operators (`and`, `or`, `not`)
+- Boolean Data Type
+- Comparison Operators
+- Variables
+- Business Logic
+- f-Strings
+- Output Formatting
 
 ---
 
@@ -140,26 +140,72 @@ A simple console application that generates the multiplication table of a user-e
 
 #### Features
 
-* Accept a number from the user
-* Generate a multiplication table from 1 to 10
-* Display a formatted multiplication table
-* Professional console output
+- Accept a number from the user
+- Generate a multiplication table from 1 to 10
+- Display a formatted multiplication table
+- Professional console output
 
 #### Concepts Practiced
 
-* `for` Loop
-* `range()`
-* Variables
-* Arithmetic Operators
-* Loop Iteration
-* f-Strings
-* Output Formatting
+- `for` Loop
+- `range()`
+- Variables
+- Arithmetic Operators
+- Loop Iteration
+- f-Strings
+- Output Formatting
+
+---
+
+### 6️⃣ Student Grade Management System
+
+#### Description
+
+A console-based application that calculates a student's total marks, average marks, grade, and pass/fail result based on marks entered for five subjects.
+
+#### Business Rules
+
+- Average ≥ 90 → **Grade A+**
+- Average ≥ 80 → **Grade A**
+- Average ≥ 70 → **Grade B**
+- Average ≥ 60 → **Grade C**
+- Average ≥ 50 → **Grade D**
+- Below 50 → **Grade F**
+
+#### Result Rule
+
+- Average ≥ 50 → **Pass**
+- Otherwise → **Fail**
+
+#### Features
+
+- Student registration
+- Accept marks for five subjects
+- Calculate total marks
+- Calculate average marks
+- Determine grade
+- Determine pass/fail status
+- Display a professional student grade report
+
+#### Concepts Practiced
+
+- Variables
+- Data Types
+- Arithmetic Operators
+- `if`
+- `elif`
+- `else`
+- Comparison Operators
+- Conditional Statements
+- Business Logic
+- f-Strings
+- Output Formatting
 
 ---
 
 ## 🛠 Technologies Used
 
-* Python 3
+- Python 3
 
 ---
 
@@ -172,6 +218,7 @@ A simple console application that generates the multiplication table of a user-e
 │── employee_bonus_system.py
 │── employee_promotion_eligibility_system.py
 │── multiplication_table_generator.py
+│── student_grade_management_system.py
 │── README.md
 │── .gitignore
 ```
@@ -180,38 +227,50 @@ A simple console application that generates the multiplication table of a user-e
 
 ## 🎯 Skills Learned
 
-* Python Fundamentals
-* Variables
-* Data Types
-* Input & Output
-* Type Conversion
-* String Methods
-* Arithmetic Operators
-* Comparison Operators
-* Logical Operators (`and`, `or`, `not`)
-* Conditional Statements (`if`, `elif`, `else`)
-* Boolean Data Type
-* Loops (`for`)
-* `range()`
-* Loop Iteration
-* Business Logic
-* Output Formatting
-* Basic Problem Solving
+- Python Fundamentals
+- Variables
+- Data Types
+- Input & Output
+- Type Conversion
+- String Methods
+- Arithmetic Operators
+- Comparison Operators
+- Logical Operators (`and`, `or`, `not`)
+- Conditional Statements (`if`, `elif`, `else`)
+- Boolean Data Type
+- Loops (`for`)
+- `range()`
+- Mathematical Calculations
+- Business Logic
+- Output Formatting
+- Problem Solving
+- Console Application Development
+
+---
+
+## 📈 Project Progress
+
+- ✅ Uniform Billing System
+- ✅ Employee Information System
+- ✅ Employee Bonus Eligibility System
+- ✅ Employee Promotion Eligibility System
+- ✅ Multiplication Table Generator
+- ✅ Student Grade Management System
+- 🔄 Number Guessing Game (Coming Soon)
 
 ---
 
 ## 🚀 Future Projects
 
-* Number Guessing Game
-* Student Grade Management System
-* ATM Banking System
-* Inventory Management System
-* Library Management System
-* Sales Report Generator
-* Expense Tracker
-* File Handling
-* Functions
-* Object-Oriented Programming (OOP)
+- Number Guessing Game
+- ATM Banking System
+- Inventory Management System
+- Library Management System
+- Sales Report Generator
+- Expense Tracker
+- File Handling
+- Functions
+- Object-Oriented Programming (OOP)
 
 ---
 
@@ -221,4 +280,6 @@ A simple console application that generates the multiplication table of a user-e
 
 **Aspiring AI/ML Engineer | Data Scientist | Python Developer**
 
-Learning Python, Data Science, Machine Learning, and Artificial Intelligence through practical real-world projects.
+Building practical Python projects while developing expertise in Artificial Intelligence, Machine Learning, and Data Science.
+
+---
